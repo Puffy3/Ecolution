@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ecolution</title>
+
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+
+
+<body>
+
+    <!-- <img height="500" width="1300" class="bgimg" src="WhatsApp Image 2023-07-29 at 11.05.04 PM.jpeg" alt=""> -->
+    <div class="flex-container">
+        <span style="order: 1" class="sticky">
+            <ul class="navbtn">
+                <li class="nav">
+                    <a href="index.html">Home</a>
+                    <!-- <a href="hello.html"> <button class="nav" id="current">Home</button></a> -->
+                </li>
+                <li class="nav">
+                    <a href="service.html">Services</a>
+                    <!-- <button class="nav">Services</button> -->
+                </li>
+                <li class="nav" id="home"><a href="Innovation.html">Innovation</a>
+                    <!-- <a href="water.html"><button class="nav">Inovation</button></a>--></li>
+                <li>
+                    <div class="dropdown">
+                        <a href="#" class="dropbtn">Help</a>
+                        <div class="dropdown-content">
+                            <a href="cnt.html"   class="drop">Contact us</a>
+                            <a href="Faq.html" class="drop">FAQ</a>
+                            <!-- <a href="#" class="drop">Lorem ipsum dolor sit amet.</a> -->
+                        </div>
+                    </div>
+                    <!-- <button class="nav">Help</button> -->
+                </li>
+            </ul>
+        </span>
+        <span class="searchbox" style="order: 2">
+            <form action="#">
+                <input class="srchbar" type="text" placeholder="Search">
+
+                <button class="scrbtn" onclick="myFunction()">Go</button>
+
+
+
+            </form>
+        </span>
+    </div>
+    <div class="innovation_content">
+        <h1 class="innovation_head">Innovative Technologies Revolutionizing Waste Management</h1>
+            <p>The first step toward creating efficient, sustainable waste management systems is learning why our
+                current ones aren’t working. The following technologies combine IoT data analytics with modern solutions
+                to help identify challenges and improve as they go.</p>
+
+                <a href="https://www.c40knowledgehub.org/s/article/Cities100-Zhenjiang 
+                -is-the-first-Chinese-city-to-treat-food-waste-and-sludge-in-one-plant?language=en_US"> <h2 class="innovation_head">Zhenjiang is the first Chinese city to treat food waste and sludge in one plant</h2> </a>
+            <img class="innvcnt" src="https://c40.file.force.com/servlet/servlet.ImageServer?id=0151Q000004VgJz&oid=00D36000001Enhz&lastMod=1576890187000" alt="Zhenjiang">
+
+            <!-- Website link h ye .. tile ke sath link kr dena -->  
+           
+            <p>Home to three million people, Zhenjiang was dealing with the same issue faced by many cities around the world: 
+                How to best handle waste? Zhenjiang has a booming restaurant and catering industry with around 2,600 food service businesses
+                 that generate approximately 203 tonnes of food waste every day. Faced with large amounts of food waste, as well as domestic sludge
+                  from a growing urban population, the city initiated China’s first project for comprehensive treatment of organic urban waste in
+                   one plant. </p>
+
+           <a href="https://www.c40knowledgehub.org/s/article/Cities100-Naestved-is-recycling-glass-while-producing-heat-and-insulation-material?language=en_US"><h2 class="innovation_head">Næstved is recycling glass while producing heat and insulation material</h2></a> 
+            <img class="innvcnt" src="https://c40--c.na81.content.force.com/servlet/servlet.ImageServer?id=0151Q000004VgJQ&oid=00D36000001Enhz&lastMod=1576870950000" alt="Næstved">
+            <!-- wesite link :-  -->
+
+            <p>In the southern part of the Danish island of Zealand, Næstved municipality has taken the circular economy to heart. By establishing Resource City,
+                 Næstved is working to reduce and recycle waste. One of the ways it recycles waste is via its Glass Cluster, where two companies work 
+                 together to recycle 125,000 tonnes of glass every year. The cluster not only produces new glass, but also
+                 creates insulation from byproduct glass and supplies a local city with 50% of its heating from surplus heat.</p>
+
+            <a href="https://www.c40knowledgehub.org/s/article/Cities100-Innovation-turns-waste-product-into-clean-water-in-Bangalore?language=en_US"><h2>Innovation turns waste product into clean water in Bangalore</h2></a>
+            <img class="innvcnt" src="data:image/jpeg;base64,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" alt="">
+             <!-- link :-  -->
+
+            <p>In Bangalore, a leachate treatment plant is using a new patented method of turning harmful and contaminated leachate into water, 
+                which will be used to replenish groundwater reserves. The project saves the city money compared to conventional methods of treating
+                 leachate, reduces the risk of contaminating water for the communities surrounding the 
+                 landfill, and protects the environment from harmful pollutants and emissions. 
+                The project is already being expanded across the city and a local government grant is enabling more leachate treatment plants.</p>
+
+           <a href=" https://www.c40knowledgehub.org/s/article/Cities100-Composting-waste-in-Sao-Paulo-to-boost-the-circular-economy?language=en_US"><h2>Composting waste in São Paulo to boost the circular economy</h2></a> 
+            <img class="innvcnt" src="https://c40--c.na81.content.force.com/servlet/servlet.ImageServer?id=0151Q000004VgHe&oid=00D36000001Enhz&lastMod=1576824765000" alt="">
+            <!-- link  -->
+
+            <p>The City of São Paulo has tackled its problem of sending tonnes of organic waste to distant landfills by constructing semi-local composting
+                 facilities in the city. The composting facilities or ‘yards’ handle up to 50 tonnes of waste a day.
+                  They create compost to be used in public spaces in the city or given to visitors for free, as well as diverting waste from landfills. 
+                The project also includes urban garden programmes in which citizens are encouraged to grow their own food.</p>
+
+            <a href="https://www.c40knowledgehub.org/s/article/Cities100-Paris-is-reducing-reusing-and-recovering-its-waste?language=en_US"><h2> Paris is reducing, reusing and recovering its waste</h2></a>
+            <img class="innvcnt" src="https://c40--c.na81.content.force.com/servlet/servlet.ImageServer?id=0151Q000004VgJ1&oid=00D36000001Enhz&lastMod=1576862996000" alt="">
+            <!-- link  -->
+            <p>
+                The City of Paris has adopted a zero waste strategy and aims to become a more circular economy. The plan for sending as little waste to 
+                incineration as possible includes strategies to reduce, reuse, and recycle and recover waste. Paris has begun extensive collection of 
+                organic waste, opened citywide ‘ressourceries’ teaching Parisians how to repair things, and rolled out public recycling bins to enable 
+                everyone to recycle regardless of where they live, for example. The city also aims to cut food waste in half by 2025, and is 
+                implementing initiatives such as requiring food markets to develop partnerships with nonprofits to redistribute unsold food.
+            </p>
+               <!-- <a href="https://finance.yahoo.com/news/global-solar-trash-compactor-market-133300158.html"> <h2>Global Solar Trash Compactor Market Demand will Reach a Value of US$ 165.1 Mn by 2031</h2></a>
+                <img class="innvcnt" src="https://www.ecubelabs.com/wp-content/uploads/2020/06/200428-CCB2-perspective01-1-e1592802082853.png" alt="">
+                link  
+                <p>Solar trash compactors are powered by solar energy and are thus associated
+                     with significant advantages of energy savings and reduction of carbon footprint.
+                      This is attracting investments from governments for the development of public infrastructure,
+                       which, in turn, is triggering market development.</p> -->
+
+                <a href=" https://www.dqindia.com/indias-first-mobile-e-waste-kiosk-launched-instacash/"><h2> India’s First Mobile E-Waste Kiosk Launched by InstaCash </h2></a>
+                <img class="innvcnt" src="https://www.waste360.com/sites/waste360.com/files/uploads/2015/02/eco-atm-machine-silo.jpg" alt="">
+                <!-- link  -->
+
+                <p>As India is the world’s second-largest smartphone market and the mobile usage keeps on increasing. 
+                    According to study done by IIM Bangalore & research form Counterpoint Research, India will be have more than 50 crore smartphone users in next 5 years. 
+                    Also the local mobile phones manufactures have also increased  from 14% in 2014 to 67% in 2014. This figure will hit 95% by 2020.
+                     With increasing affordable phone options consumer tends to replace & discard their phones sooner.</p>
+
+                    <a href=" https://www.gadgets360.com/internet/features/these-2-indian-startups-will-pay-cash-for-your-trash-781033"><h2>Recycling Apps</h2></a>
+                    <img class="innvcnt" src="https://cdn.ndtv.com/tech/images/pompom_recycle_main2.jpg" alt="">
+                    <!--link   -->
+                    <p>Tech startups seem to have have disintermediated almost every aspect of trade and commerce, including the end of the product's lifecycle.
+                         While waste recycling doesn't see as much venture capital thrown at it as say e-commerce, there are some notable companies in this space 
+                         which have raised funding. For instance, there is Noida-based Attero Recycling, which mines precious metals from e-waste that raised Rs. 100 crore in 2014. 
+                         Another firm is Karma Recycling, which raised an undisclosed sum during its Series A in July this year. The company buys old gadgets from Tier 1 
+                         cities and resells them in India's smaller cities. On its website, 
+                        it boasts a total payout of 15 crores to its customers.</p>
+                    
+    </div>
+    <script src="myscripts.js"></script>
+    <footer>
+        <img class="ftimg" height="150" width="1272" src="https://htmlcolorcodes.com/assets/images/colors/bright-green-color-solid-background-1920x1080.png" alt="">
+    </footer>
+</body>
+
+</html>

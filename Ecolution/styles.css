@@ -1,0 +1,314 @@
+li {
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style-type: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+
+}
+#home{
+    text-decoration: underline;
+}
+li.nav:hover {
+    /* background-color: rgb(100, 146, 31); */
+    text-decoration: underline;
+    color: black;
+    
+    
+}
+
+.searchbox {
+
+    position: relative;
+    right: 15px;
+
+}
+
+.srchbar {
+    
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+.scrbtn {
+    border-radius: 100px;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.477);
+    
+}
+.scrbtn:hover {
+    
+    background-color: #58cb06;
+}
+/* .scrbtn:active{
+    box-shadow: 0 -4px -8px 0 rgba(0, 0, 0, 0.477);
+} */
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    position: relative;
+    left: 5px;
+    /* top: 290px; */
+    width: 20%;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    height: 432px;
+    justify-content: space-around;
+    width: 345px;
+    background-color: #ffffff;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 20px 40px 0 rgba(140, 255, 0, 0.712);
+  }
+  .article_head{
+    position: relative;
+    top: -34pxpx;
+    font-family: 'Times New Roman', Times, serif;
+    color:  #008000;
+
+  }
+  .article_text{
+    position: relative;
+    top: -23px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+ 
+a:link {
+    color: #008000;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color:   #008000;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  
+  /* .maintxt{
+    position: relative;
+    top: -114px;
+    font-size: 50px;
+    color: #000000; */
+  
+  /* .txt{
+    color: #000000;
+  } */
+/* .nav {
+
+    border: none;
+    outline: none;
+    opacity: 10;
+color: black;
+} */
+/* .bgimg:hover{
+    z-index: 6;
+    background-color: linear-gradient(to right, black , );
+} */
+
+.flex-container {
+
+border-radius: 10px;
+    position: sticky;
+    top: 0;
+    display: flex;
+background-color: #b9fc00;
+    justify-content: space-between;
+    z-index: 5;
+}
+.article{
+    position: relative;
+    top: 10px;
+   
+    justify-content: space-around;
+    display: flex;
+    margin: auto;
+   
+}
+.article2{
+    display: flex;
+    margin: auto;
+    position: relative;
+    justify-content: space-around;
+    top: 35px;
+
+}
+
+.navbar {
+    position: sticky;
+}
+
+.content {
+    position: relative;
+    top: 5000px;
+}
+
+.maintxt {
+
+    position: relative;
+    top: -60px;
+    font-size: 50px;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+   
+}
+
+
+.txt:hover{
+    text-shadow: 20px 20px #ffffff;
+}
+
+
+.bgimg {
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    
+    z-index: -1;
+    /* height: 10;
+    width: 100%; */
+    
+    height: 10;
+}
+.crdimg{
+    
+    width: 100%;
+    height: 150px;;
+    border-radius: 20px;
+}
+.innvcnt{
+    position: relative;
+    height:414px;
+    width: 826px;
+    max-width: 100%;
+   
+    /* left: 0px;
+    top: 0px; */
+    /* padding: 10px;
+    margin: 10px; */
+    
+}
+.nlink:hover{
+    text-decoration: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#9ac62b;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.innovation_content{
+     position: relative;
+    /* top: 40px;
+    font-family: 'Times New Roman', Times, serif; */
+    /* padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px; 
+    padding-left: 142px;
+    margin-left: 33px;
+    margin-right: 142px;
+    padding-right: 33px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px; */
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+   /* White background for content */
+   box-shadow: 0 20px 40px 0 rgba(140, 255, 0, 0.712);
+    border-radius: 5px;
+    background-color: #ffffff;
+    
+}
+    
+
+.home_content{
+    position: relative;
+    top: 34px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 142px;
+    margin-left: 33px;
+    margin-right: 142px;
+    padding-right: 33px;
+    color:  #000000;
+}
+.drop:hover{
+    background-color: #449a03;
+}
+body{
+    width: 100%;
+    background-color: #f0fff0;
+}
+html{
+    width: auto;
+}
+.hlptxt{
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    padding-left: 100px;
+    margin-left: 100px;
+}
+.ftimg{
+    padding-top: 10px;
+    margin-top: 20px;
+    z-index: -1;
+    position: absolute;
+
+}
+.innovation_head{
+    color:  #008000;
+}
+.fttxt{
+  
+
+    bottom: 0px;
+    z-index: 2;
+    position: relative;
+    
+}
+.qfat{
+    padding: 20px;
+position: absolute;
+color: #008000;
+}

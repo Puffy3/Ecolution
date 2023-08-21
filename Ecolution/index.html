@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ecolution</title>
+
+    <link href="styles.css" rel="stylesheet" type="text/css"> 
+</head>
+
+
+
+<body>
+
+    <img class="bgimg" height="300" width="1272" src="https://htmlcolorcodes.com/assets/images/colors/bright-green-color-solid-background-1920x1080.png" alt="">
+    <!-- <img class="grb" src="pngegg.png" alt=""> -->
+    <div class="flex-container">
+        <span style="order: 1" class="sticky">
+            <ul class="navbtn">
+                <li class="nav">
+                    <a href="index.html" id="home">Home</a>
+                    <!-- <a href="hello.html"> <button class="nav" id="current">Home</button></a> -->
+                </li>
+                <li class="nav">
+                    <a href="service.html">Services</a>
+                    <!-- <button class="nav">Services</button> -->
+                </li>
+                <li class="nav"><a href="Innovation.html">Innovation</a>
+                    <!-- <a href="water.html"><button class="nav">Inovation</button></a>--></li>
+                <li>
+                    <div class="dropdown">
+                        <a href="#" class="dropbtn">Help</a>
+                        <div class="dropdown-content">
+                            <a href="cnt.html"   class="drop">Contact us</a>
+                            <a href="Faq.html" class="drop">FAQ</a>
+                            <!-- <a href="#" class="drop">Lorem ipsum dolor sit amet.</a> -->
+                        </div>
+                    </div>
+                    <!-- <button class="nav">Help</button> -->
+                </li>
+            </ul>
+        </span>
+        <span class="searchbox" style="order: 2">
+            <form action="#">
+                <input class="srchbar" type="text" placeholder="Search">
+
+                <button class="scrbtn" onclick="myFunction()">Go</button>
+
+
+
+            </form>
+        </span>
+    </div>
+
+
+    <div class="maintxt">
+        <h1 class="txt">   Waste<br> &nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Management </h1>
+    </div>
+    
+     <div class="article">
+        <a class="nlink" href="https://www.epa.gov/recycle/how-do-i-recycle-common-recyclables"><div class="card">
+
+            <img class="crdimg" src="data:image/jpeg;base64,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" alt="Avatar" height="100px">
+            <div class="container">
+                <h4 class="article_head"><b>Recycle</b></h4>
+                <p class="article_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, nam officiis molestias et dolores.</p>
+            </div></a>
+
+
+        </div>
+       <a class="nlink" href="https://www.unep.org/ietc/resources/toolkits-manuals-and-guides/waste-energy-incineration"><div class="card">
+
+            <img class="crdimg" src="WhatsApp Image 2023-07-29 at 11.24.16 PM.jpeg" alt="Avatar" height="100px">
+            <div class="container">
+                <h4 class="article_head"><b>Incineration</b></h4>
+                <p class="article_text">Incineration is a waste treatment process that involves the combustion of substances contained in waste materials. Industrial plants for waste incineration are commonly referred to as waste-to-energy facilities. Incineration and other high-temperature waste treatment systems are described as "thermal treatment.</p>
+            </div></a> 
+
+
+        </div>
+        <a class="nlink" href="https://education.nationalgeographic.org/resource/landfills/"> <div class="card">
+
+            <img class="crdimg" src="WhatsApp Image 2023-07-29 at 11.28.51 PM.jpeg" alt="Avatar" height="100px">
+            <div class="container">
+                <h4 class="article_head"><b>Landfill</b></h4>
+                <p class="article_text">A landfill site, also known as a tip, dump, rubbish dump, garbage dump, or dumping ground, is a site for the disposal of waste materials. Landfill is the oldest and most common form of waste disposal.</p>
+            </div></a>
+
+
+        </div>
+        
+    </div>
+ <div class="article2">
+   <a class="nlink" href="https://americanbiogascouncil.org/resources/what-is-anaerobic-digestion/"> <div class="card">
+
+        <img class="crdimg" src="WhatsApp Image 2023-07-29 at 11.37.04 PM.jpeg" alt="Avatar" height="100px">
+        <div class="container">
+            <h4 class="article_head"><b>Anaerobic digestion</b></h4>
+            <p class="article_text">Anaerobic digestion is a sequence of processes by which microorganisms break down biodegradable material in the absence of oxygen. The process is used for industrial or domestic purposes to manage waste or to produce fuels.</p>
+        </div></a>
+
+
+    </div>
+   <a class="nlink" href="https://www.nrdc.org/stories/composting-101"> <div class="card">
+
+        <img class="crdimg" src="WhatsApp Image 2023-07-29 at 11.26.05 PM.jpeg" alt="Avatar" height="100px">
+        <div class="container">
+            <h4 class="article_head"><b>Compost</b></h4>
+            <p class="article_text">Compost is a mixture of ingredients used as plant fertilizer and to improve soil's physical, chemical, and biological properties. It is commonly prepared by decomposing plant and food waste, recycling organic materials, and manure.</p>
+        </div></a>
+
+
+    </div>
+   <a class="nlink" href="https://content.ces.ncsu.edu/before-you-recycle-choose-to-reuse"> <div class="card">
+
+        <img class="crdimg" src="WhatsApp Image 2023-07-29 at 11.42.03 PM.jpeg" alt="Avatar" height="100px">
+        <div class="container">
+            <h4 class="article_head"><b>Reuse</b></h4>
+            <p class="article_text">Reuse is the action or practice of using an item, whether for its original purpose or to fulfill a different function. It should be distinguished from recycling, which is the breaking down of used items to make raw materials for the manufacture of new products.</p>
+        </div> </a>
+
+
+    </div>
+ </div>
+ <div class="home_content">
+    <h1>What's happening around?</h1>
+   <a href="https://www.sciencedirect.com/science/article/pii/S2772427121000048"> <h3>Scenarios of waste management nexus in Bangalore.</h3></a>
+    <p>The city of Bangalore north at Latitude 13°50′ North, Longitude 77°36′ East in Karnataka is the state capital, arranged in the southern bit of the Deccan level edge of two other South Indian states, specifically, Tamil Nadu and Andhra Pradesh. It has smooth and salubrious air. It is arranged at the tallness of 900 m. Since the 1980s, Bangalore has been charmed to be one of the fastest making metropolitan networks in Asia (Dittrich, 2004).</p>
+   <a href="https://www.thehindu.com/news/cities/bangalore/waste-management-and-sewage-treatment-infrastructure-in-bengaluru-to-get-a-fillip/article67054079.ece"><h3>Waste Management and sewage treatment infrastructure in Bengaluru to get a fillip .</h3></a> 
+    <p>Solid Waste Management and Sewage Treatment Plant (STP) infrastructure in the city is expected to get a big fillip this year. 
+
+        In a new scheme announced in the budget on Friday, July 7, the city will get ₹1250 crore for effective disposal of legacy waste, liquid waste management and to control the flow of pollutants into lakes. “Under this scheme, Bangalore Water Supply and Sewerage Board (BWSSB) will take up building new STPs up to a total capacity of 400 MLD in the 110 villages where underground drainage is newly laid,” said N. Jayaram, chairman, BWSSB.</p>
+   <a href="https://www.sciencedirect.com/science/article/abs/pii/S1364032117313424"><h3>Integrated biodiesel and biogas production from microalgae: Towards a sustainable closed loop through nutrient recycling</h3></a> 
+    <p>The sustainable, efficient production of biofuel can lead to reductions in greenhouse gas emissions, lowered climate change impact and increased security owing to the fulfilment of global energy demands. Microalgae have been shown as an attractive feedstock for renewable fuel production, such as biodiesel and biogas. To date, more effort has been put towards the production of biodiesel using the lipid contents in algal cells, while less attention has been placed on biogas production through anaerobic digestion.</p>
+   <a href="https://bangaloremirror.indiatimes.com/bangalore/cover-story/junkle-book/articleshow/83553375.cms"><h3>The waste-to-energy plant at Kannahalli, which will supply 40 MW of power to KPTCL, has taken the first step towards that goal — composting of wet waste</h3></a> 
+    <p>It’s taken more than a decade but the waste-to-energy plant at Kannahalli has finally started working. The plant received 48.695 metric tonnes of wet waste brought by nine garbage compactors on Monday.
+        “The process of converting waste into compost has begun. Converting waste into energy will begin shortly at this plant,’’ said Randeep D, Bruhat Bengaluru Mahanagara Palike (BBMP) Special Commissioner (Solid Waste Management).</p>
+    <!-- <h2>Lorem, ipsum dolor.</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto culpa eaque quis adipisci, doloremque est harum labore. Cum, nam nesciunt nostrum asperiores quam perferendis amet odio. Ipsa esse eos expedita itaque quidem!</p>
+    <h2>Lorem, ipsum dolor.</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto culpa eaque quis adipisci, doloremque est harum labore. Cum, nam nesciunt nostrum asperiores quam perferendis amet odio. Ipsa esse eos expedita itaque quidem!</p>
+    <h2>Lorem, ipsum dolor.</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto culpa eaque quis adipisci, doloremque est harum labore. Cum, nam nesciunt nostrum asperiores quam perferendis amet odio. Ipsa esse eos expedita itaque quidem!</p>
+    <h2>Lorem, ipsum dolor.</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto culpa eaque quis adipisci, doloremque est harum labore. Cum, nam nesciunt nostrum asperiores quam perferendis amet odio. Ipsa esse eos expedita itaque quidem!</p>
+    <h2>Lorem, ipsum dolor.</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto culpa eaque quis adipisci, doloremque est harum labore. Cum, nam nesciunt nostrum asperiores quam perferendis amet odio. Ipsa esse eos expedita itaque quidem!</p>
+    <h2>Lorem, ipsum dolor.</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto culpa eaque quis adipisci, doloremque est harum labore. Cum, nam nesciunt nostrum asperiores quam perferendis amet odio. Ipsa esse eos expedita itaque quidem!</p> -->
+ </div>
+
+    <script src="myscripts.js"></script>
+    <footer>
+        <img class="ftimg" height="150" width="1272" src="https://htmlcolorcodes.com/assets/images/colors/bright-green-color-solid-background-1920x1080.png" alt="">
+    </footer>
+</body>
+
+</html>
